@@ -5338,7 +5338,7 @@ type 0309, grid 2.5 mm</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="SparkFun-Connectors" deviceset="M04X2" device=""/>
+<part name="NORDIC-NRF24L01" library="SparkFun-Connectors" deviceset="M04X2" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M13" device=""/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M13" device=""/>
 <part name="P+1" library="_c2h" deviceset="3V3-PI" device=""/>
@@ -5351,10 +5351,9 @@ type 0309, grid 2.5 mm</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-74.93" y="134.62" size="2.54" layer="91">Humidity</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="-104.14" y="76.2"/>
+<instance part="NORDIC-NRF24L01" gate="G$1" x="-104.14" y="76.2"/>
 <instance part="JP1" gate="G$1" x="81.28" y="73.66"/>
 <instance part="JP2" gate="G$1" x="71.12" y="73.66" rot="R180"/>
 <instance part="P+1" gate="3V3-PI" x="58.42" y="91.44"/>
@@ -5411,7 +5410,7 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="GPIO25" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="3"/>
+<pinref part="NORDIC-NRF24L01" gate="G$1" pin="3"/>
 <wire x1="-111.76" y1="78.74" x2="-116.84" y2="78.74" width="0.1524" layer="91"/>
 <label x="-121.92" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -5438,7 +5437,7 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="GND" class="1">
 <segment>
-<pinref part="U$1" gate="G$1" pin="1"/>
+<pinref part="NORDIC-NRF24L01" gate="G$1" pin="1"/>
 <wire x1="-111.76" y1="81.28" x2="-114.3" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="81.28" x2="-114.3" y2="83.82" width="0.1524" layer="91"/>
 <label x="-114.3" y="83.82" size="1.778" layer="95"/>
@@ -5500,7 +5499,7 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="SCLK-PI" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="5"/>
+<pinref part="NORDIC-NRF24L01" gate="G$1" pin="5"/>
 <wire x1="-111.76" y1="76.2" x2="-116.84" y2="76.2" width="0.1524" layer="91"/>
 <label x="-124.46" y="76.2" size="1.778" layer="95"/>
 </segment>
@@ -5512,7 +5511,7 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="SPI_CE0" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="4"/>
+<pinref part="NORDIC-NRF24L01" gate="G$1" pin="4"/>
 <wire x1="-96.52" y1="78.74" x2="-93.98" y2="78.74" width="0.1524" layer="91"/>
 <label x="-91.44" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -5531,7 +5530,7 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="MOSI-PI" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="6"/>
+<pinref part="NORDIC-NRF24L01" gate="G$1" pin="6"/>
 <wire x1="-96.52" y1="76.2" x2="-93.98" y2="76.2" width="0.1524" layer="91"/>
 <label x="-91.44" y="76.2" size="1.778" layer="95"/>
 </segment>
@@ -5543,7 +5542,7 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="MISO-PI" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="7"/>
+<pinref part="NORDIC-NRF24L01" gate="G$1" pin="7"/>
 <wire x1="-111.76" y1="73.66" x2="-116.84" y2="73.66" width="0.1524" layer="91"/>
 <label x="-124.46" y="73.66" size="1.778" layer="95"/>
 </segment>
@@ -5555,7 +5554,7 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="3V3-PI" class="3">
 <segment>
-<pinref part="U$1" gate="G$1" pin="2"/>
+<pinref part="NORDIC-NRF24L01" gate="G$1" pin="2"/>
 <wire x1="-96.52" y1="81.28" x2="-93.98" y2="81.28" width="0.1524" layer="91"/>
 <label x="-91.44" y="81.28" size="1.778" layer="95"/>
 </segment>
@@ -5597,7 +5596,7 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="8"/>
+<pinref part="NORDIC-NRF24L01" gate="G$1" pin="8"/>
 <wire x1="-96.52" y1="73.66" x2="-93.98" y2="73.66" width="0.1524" layer="91"/>
 <label x="-91.44" y="73.66" size="1.778" layer="95"/>
 </segment>
